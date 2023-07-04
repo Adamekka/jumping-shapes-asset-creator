@@ -49,7 +49,7 @@
       type: "text/plain;charset=utf-8",
     });
     element.href = URL.createObjectURL(file);
-    element.download = title + ".player.jsasset";
+    element.download = title + ".player.json";
     document.body.appendChild(element);
     element.click();
   }
